@@ -1,4 +1,11 @@
-.container {
-  background-color: black;
-  position: relative;
+* {
+  margin: 0 auto;
+
+}
+
+body{
+  background-image: url("./images/blurry.jpg");
+  
+  background-size: cover;
+  
 }

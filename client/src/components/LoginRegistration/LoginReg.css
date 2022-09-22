@@ -1,7 +1,7 @@
 
 
 .login-reg-container {
-    
+    z-index: 3;
 background-color: rgb(247, 247, 247);
     border-radius: 10px;
     width: 300px;
@@ -32,9 +32,12 @@ background-color: rgb(247, 247, 247);
     
     display: flex;
     justify-content: center; 
-    /* color: white; */
-    /* background-color: rgb(184, 0, 113);
-    border-radius: 10px; */
+    color: white; 
+    background-color: rgb(184, 0, 113);
+    border-radius: 10px; 
    
+}
+.login-button:hover, .register-button:hover{
+    background-color: rgb(167, 2, 104);
 }
 

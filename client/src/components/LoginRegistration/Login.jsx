@@ -37,7 +37,7 @@ console.log(data)
 
   return (
     <div className='login-reg-container'>
-    <h1 className='login-text'>Login</h1>
+    <h1>Login</h1>
    
     <form on onSubmit={loginUser}>
     <div className='input-field'>
@@ -60,9 +60,16 @@ console.log(data)
         <br/>
         <input type="submit" value="Login" className='login-button'/>
     </form>
+    <Link to="/register">Forgot password?</Link>
+    <br/>
+
+  <span id='underline'></span>
+
+   <div className='button-section'>
 <button>
     <Link to="/register">Create new account</Link>
     </button>
+    </div>
     </div>
   )
 }

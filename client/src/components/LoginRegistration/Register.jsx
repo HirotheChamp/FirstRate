@@ -67,7 +67,7 @@ if(data.status === 'ok') {
         <input type="submit" value="Register" className='register-button'/>
     </form>
 
-    <Link to="/login">Already have an account? Login here</Link>
+    <p>Already have an account? <span className='login-here'><Link to="/login">Login here</Link></span></p>
     </div>
   )
 }

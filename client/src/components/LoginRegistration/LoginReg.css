@@ -1,69 +1,126 @@
+.login-container {
 
 
-.login-reg-container {
     z-index: 3;
-background-color: rgb(247, 247, 247);
+    background-color: rgb(247, 247, 247);
     border-radius: 10px;
     width: 350px;
-    height: 400px;
+    height: 420px;
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-   position: absolute;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  
+
     /* Boxshadow */
     -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
     -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
     box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
-.login-reg-container h1 {
-   border-bottom: 1px solid silver;
-   width: 92%;
-   text-align: center;
+.reg-container {
+
+
+    z-index: 3;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    width: 350px;
+    height: 450px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /* Boxshadow */
+    -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
+    box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.16);
 }
 
-
-.login-reg-container > span{
-   width: 92%;
+.login-container h1, .reg-container h1 {
     border-bottom: 1px solid silver;
-   
+    width: 92%;
+    text-align: center;
+    padding: 10px 10px;
 }
 
 
+.login-container > span {
+    width: 92%;
+    border-bottom: 1px solid silver;
+
+}
+
+.reg-container p {
+    padding: 10px;
+}
+
+/* input section */
+
+form .input-field {
+    position: relative;
+    margin: 10px 0;
+
+}
 
 .input-field input {
+
     width: 100%;
-    
-    padding: 0 20px;
-    margin-top: 20px;
- 
-    height: 40px;
+
+    padding: 0 10px;
+
+    margin-top: 15px;
+    margin-right: 20px;
+
+    height: 35px;
     font-size: 16px;
-    
+
     background: none;
     outline: none;
 }
 
 
+/* button section */
+.button-section {
+    padding-top: 10px;
+}
 
-.login-button, .register-button{
+
+
+.new-account {
+    background-color: rgb(50, 226, 50);
+    border-radius: 5px;
+    border-color:  rgb(50, 226, 50);
+    width: 100%;
+    height: 40px;
+   
+}
+
+.button-section button:hover {
+    background-color: rgb(36, 197, 36) 
+}
+
+.login-button,
+.register-button {
     width: 100%;
     height: 40px;
     padding: 0 20px;
     font-size: 16px;
     margin-top: 20px;
     display: flex;
-    justify-content: center; 
-    color: white; 
+    justify-content: center;
+    color: white;
     background-color: rgb(184, 0, 113);
-    border-radius: 100px; 
-   
-}
-.login-button:hover, .register-button:hover{
-    background-color: rgb(167, 2, 104);
+    border-radius: 100px;
+    cursor: pointer;
 }
 
+.login-button:hover,
+.register-button:hover {
+    background-color: rgb(167, 2, 104);
+}

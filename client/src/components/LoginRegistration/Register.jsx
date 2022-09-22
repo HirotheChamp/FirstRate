@@ -30,7 +30,7 @@ if(data.status === 'ok') {
     }
 
   return (
-    <div className='login-reg-container'>
+    <div className='reg-container'>
     <h1>Register</h1>
 
    

@@ -36,7 +36,7 @@ console.log(data)
     }
 
   return (
-    <div className='login-reg-container'>
+    <div className='login-container'>
     <h1>Login</h1>
    
     <form on onSubmit={loginUser}>
@@ -66,7 +66,8 @@ console.log(data)
   <span id='underline'></span>
 
    <div className='button-section'>
-<button>
+<button className='new-account'>
+
     <Link to="/register">Create new account</Link>
     </button>
     </div>

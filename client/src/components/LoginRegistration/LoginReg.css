@@ -88,6 +88,7 @@ form .input-field {
 /* button section */
 .button-section {
     padding-top: 10px;
+   
 }
 
 
@@ -98,11 +99,13 @@ form .input-field {
     border-color:  rgb(50, 226, 50);
     width: 100%;
     height: 40px;
-   
+    color: white;
+    cursor: pointer;
 }
 
 .button-section button:hover {
     background-color: rgb(36, 197, 36) 
+   
 }
 
 .login-button,

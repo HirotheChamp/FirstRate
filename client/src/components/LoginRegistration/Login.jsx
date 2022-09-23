@@ -66,10 +66,10 @@ console.log(data)
   <span id='underline'></span>
 
    <div className='button-section'>
-<button className='new-account'>
 
-    <Link to="/register">Create new account</Link>
-    </button>
+
+    <Link to="/register"><button className='new-account'>Create new account</button></Link>
+   
     </div>
     </div>
   )

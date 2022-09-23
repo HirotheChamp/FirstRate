@@ -3,7 +3,7 @@ import './App.css'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import Login from './components/LoginRegistration/Login'
 import Register from './components/LoginRegistration/Register'
-import Dashboard from './pages/Dashboard'
+import Dashboard from './pages/Dashboard/Dashboard'
 import LandingPage from './pages/LandingPage/LandingPage'
 
 function App() {

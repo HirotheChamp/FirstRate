@@ -1,7 +1,7 @@
 import React from 'react'
 import './Sidebar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCopyright, faThLarge } from '@fortawesome/free-solid-svg-icons'
+import { faAngleDown, faCopyright, faThLarge } from '@fortawesome/free-solid-svg-icons'
 
 
 const Sidebar = () => {
@@ -9,7 +9,7 @@ const Sidebar = () => {
  <div className="sidebar">
   <div className="logo-details">
   
-  <FontAwesomeIcon icon={faCopyright} className="nav-icon"/>
+  <FontAwesomeIcon icon={faCopyright} className="copyright-icon"/>
     <span className="logo_name">Hiro's Landing</span>
   </div>
   <ul className="nav-links">
@@ -28,6 +28,7 @@ const Sidebar = () => {
       
     <span className="link_name">Category</span>
       </a>
+      <FontAwesomeIcon icon={faAngleDown} className="nav-icons"/>
     </div>
     </li>
   </ul>

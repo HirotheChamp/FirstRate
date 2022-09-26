@@ -30,6 +30,22 @@ const Sidebar = () => {
       </a>
       <FontAwesomeIcon icon={faAngleDown} className="nav-icons"/>
     </div>
+    <ul className="sub-menu">
+      <li><a href='#'>Web Design</a></li>
+      <li><a href='#'>Web Design</a></li>
+      <li><a href='#'>Web Design</a></li>
+    </ul>
+    </li>
+
+    <li>
+    <div className="icon-links">
+    <a href='#'>
+      <FontAwesomeIcon icon={faThLarge} className="nav-icons"/>
+      
+    <span className="link_name">Posts</span>
+      </a>
+      <FontAwesomeIcon icon={faAngleDown} className="nav-icons"/>
+    </div>
     </li>
   </ul>
  </div>

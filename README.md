@@ -23,7 +23,7 @@
 
 ## Background
 
-I am a part of a music group known as Elevated Common Ground. We typically host events for music and I decided to make a website catered to event planning. Thus, Eventful was derived!
+I wanted to start a project that stemmed from rating and commenting on anything possible. This may include: movies, food, services, etc. These comments and ratings would be tallied up and rendered as a score from 1-100.
 
 
 <hr></hr>
@@ -31,9 +31,9 @@ I am a part of a music group known as Elevated Common Ground. We typically host 
 ## Features
 
 * Login and Registration
-* Creating events
-* booking events
-* graph that formulates the cost of all the posted events 
+* Creating listing
+
+
 
 <hr></hr>
 
@@ -43,7 +43,7 @@ I am a part of a music group known as Elevated Common Ground. We typically host 
 * MongoDB -- use to store data in the form of bugs and users created through the application
 * Express -- enables connection to the frontend with minimal approach
 * HTML, CSS, JSON -- used to create front end form creation script
-* GraphQL -- Creating database schemas to be used in making single API calls
+
 
 
 

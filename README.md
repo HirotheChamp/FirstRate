@@ -82,7 +82,7 @@ Project is not yet completed
 
 ## Acknowledgement
 
-Responsive dropdown menu tutorial
+Responsive dropdown menu tutorial:
 https://www.youtube.com/watch?v=ES8vJcUqE7s&list=LL&index=2&t=577s
 
 

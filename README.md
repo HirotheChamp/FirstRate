@@ -61,7 +61,7 @@ N/A
 
 ## Usage
 
-This application helps in organizing events in an orderly fashion. Events can be booked with a display tab for all the booked events of a signed in user.
+This application functions as a panel of judges. A user is able to post an item, story, service, etc to be rated by other users on the website.
 
 
 
@@ -69,20 +69,21 @@ This application helps in organizing events in an orderly fashion. Events can be
 
 ## Project Status
 
-Completed!
+Login and registration with validations is complete.
 
 <hr></hr>
 
 ## Room for Improvement
 
-New features could be added to make the experience more dynamic. There isnt many features.
+Project is not yet completed
 
 
 <hr></hr>
 
 ## Acknowledgement
 
-Code Academy Youtube channel for help with GraphQL tips
+Responsive dropdown menu tutorial
+https://www.youtube.com/watch?v=ES8vJcUqE7s&list=LL&index=2&t=577s
 
 
 <hr></hr>

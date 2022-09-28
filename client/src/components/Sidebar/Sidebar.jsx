@@ -1,8 +1,8 @@
 import React from 'react'
 import './Sidebar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown, faCopyright, faThLarge } from '@fortawesome/free-solid-svg-icons'
-
+import { faAngleDown, faStar, faBook, faGear, faCopyright, faThLarge, faRightFromBracket } from '@fortawesome/free-solid-svg-icons'
+import profile from '../../images/profile.jpg';
 
 const Sidebar = () => {
   return (
@@ -28,24 +28,7 @@ const Sidebar = () => {
     <li>
     <div className="icon-links">
     <a href='#'>
-      <FontAwesomeIcon icon={faThLarge} className="nav-icons"/>
-      
-    <span className="link_name">Category</span>
-      </a>
-      <FontAwesomeIcon icon={faAngleDown} className="nav-icons"/>
-    </div>
-    <ul className="sub-menu">
-      <li><a className="link_name" href='#'>Post</a></li>
-      <li><a href='#'>HTML</a></li>
-      <li><a href='#'>JAVA</a></li>
-      <li><a href='#'>JavaScript</a></li>
-    </ul>
-    </li>
-
-    <li>
-    <div className="icon-links">
-    <a href='#'>
-      <FontAwesomeIcon icon={faThLarge} className="nav-icons"/>
+      <FontAwesomeIcon icon={faBook} className="nav-icons"/>
       
     <span className="link_name">Posts</span>
       </a>
@@ -56,21 +39,52 @@ const Sidebar = () => {
       <li><a href='#'>Web Design</a></li>
       <li><a href='#'>Login Form</a></li>
       <li><a href='#'>Card Design</a></li>
+    </ul>
+    </li>
+
+    <li>
+    <div className="icon-links">
+    <a href='#'>
+      <FontAwesomeIcon icon={faStar} className="nav-icons"/>
+      
+    <span className="link_name">Ratings</span>
+      </a>
+      <FontAwesomeIcon icon={faAngleDown} className="nav-icons"/>
+    </div>
+    <ul className="sub-menu">
+      <li><a className="link_name" href='#'>Post</a></li>
+      <li><a href='#'>HTML</a></li>
+      <li><a href='#'>JAVA</a></li>
+      <li><a href='#'>JavaScript</a></li>
+   
     
     </ul>
     </li>
     <li>
       <a href='#'>
-      <FontAwesomeIcon icon={faThLarge} className="nav-icons"/>
+      <FontAwesomeIcon icon={faGear} className="nav-icons"/>
       
-    <span className="link_name">Analytics</span>
+    <span className="link_name">Settings</span>
       </a>
       <ul className="sub-menu blank">
       <li><a className="link_name" href='#'>Analytics</a></li>
      
     </ul>
     </li>
-  </ul>
+    <li>
+  <div className="profile-details">
+    <div className="profile-content">
+      <img src={profile} alt="profile" />
+    </div>
+    
+    <div className="name-job">
+      <div className="profile_name">Kyle Young</div>
+      <div className="job">Full-Stack Developer</div>
+    </div>
+    <FontAwesomeIcon icon={faRightFromBracket} className="nav-icons"/>
+  </div>
+  </li>
+   </ul>
  </div>
   )
 }

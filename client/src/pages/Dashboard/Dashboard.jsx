@@ -90,9 +90,9 @@ if (data.status === 'ok') {
         </div>
 
 
-        <div className='newsfeed'>
+        {/* <div className='newsfeed'>
           <Newsfeed />
-        </div>
+        </div> */}
 
 
       </div></>

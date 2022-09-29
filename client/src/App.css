@@ -7,7 +7,7 @@
 
 body{
   /* background-image: url("./images/blurry.jpg"); */
-  
+  background-color: rgb(238, 238, 238);
   background-size: cover;
   
 }

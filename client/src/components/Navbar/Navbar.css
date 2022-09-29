@@ -1,16 +1,43 @@
 nav {
   background-color: rgb(255, 255, 255);  
-   top: 0;
-   left: 0;
+ 
    height: 3.5rem;
+   position: relative;
+   margin-right: auto;
+   margin-left: auto;
+   width: 100%;
+   border: 1px red solid;
 }
 .nav-menu-items {
    color: rgb(139, 116, 116);
    list-style: none;
   display: flex;
   font-size: 1.2rem;
-  justify-content: center;
- align-items: center;
-  margin: 0;
-  padding: 0.25rem 0.5rem;
+position: relative;
+left: 50%;
+top: 10%;
+height: 100%;
+margin: 0;
+padding: 0.25rem 0.5rem;
+border: 1px red solid;
+
+}
+
+.nav-menu-items .nav-icons {
+  position: relative;
+  top: 0;
+  left: 0;
+  border: 1px red solid;
+  display: block;
+}
+
+nav .nav-menu-items li{
+padding-right: 10%;
+
+}
+
+nav .nav-menu-items li span{
+  text-decoration: none;
+
+  border: 1px red solid;
 }

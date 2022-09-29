@@ -12,10 +12,10 @@ const Sidebar = () => {
   <FontAwesomeIcon icon={faCopyright} className="copyright-icon"/>
     <span className="logo_name">Hiro's Landing</span>
   </div>
-  <ul className="nav-links">
+  <ul className="sidebar-links">
     <li>
-      <a href='#'>
-      <FontAwesomeIcon icon={faThLarge} className="nav-icons"/>
+      <a href='/dashboard'>
+      <FontAwesomeIcon icon={faThLarge} className="sidebar-icons"/>
       
     <span className="link_name">Dashboard</span>
       </a>
@@ -28,11 +28,11 @@ const Sidebar = () => {
     <li>
     <div className="icon-links">
     <a href='#'>
-      <FontAwesomeIcon icon={faBook} className="nav-icons"/>
+      <FontAwesomeIcon icon={faBook} className="sidebar-icons"/>
       
     <span className="link_name">Posts</span>
       </a>
-      <FontAwesomeIcon icon={faAngleDown} className="nav-icons"/>
+      <FontAwesomeIcon icon={faAngleDown} className="sidebar-icons"/>
     </div>
     <ul className="sub-menu">
       <li><a className="link_name" href='#'>Posts</a></li>
@@ -45,11 +45,11 @@ const Sidebar = () => {
     <li>
     <div className="icon-links">
     <a href='#'>
-      <FontAwesomeIcon icon={faStar} className="nav-icons"/>
+      <FontAwesomeIcon icon={faStar} className="sidebar-icons"/>
       
     <span className="link_name">Ratings</span>
       </a>
-      <FontAwesomeIcon icon={faAngleDown} className="nav-icons"/>
+      <FontAwesomeIcon icon={faAngleDown} className="sidebar-icons"/>
     </div>
     <ul className="sub-menu">
       <li><a className="link_name" href='#'>Post</a></li>
@@ -62,7 +62,7 @@ const Sidebar = () => {
     </li>
     <li>
       <a href='#'>
-      <FontAwesomeIcon icon={faGear} className="nav-icons"/>
+      <FontAwesomeIcon icon={faGear} className="sidebar-icons"/>
       
     <span className="link_name">Settings</span>
       </a>
@@ -81,7 +81,7 @@ const Sidebar = () => {
       <div className="profile_name">Kyle Young</div>
       <div className="job">Full-Stack Developer</div>
     </div>
-    <FontAwesomeIcon icon={faRightFromBracket} className="nav-icons"/>
+    <FontAwesomeIcon icon={faRightFromBracket} className="sidebar-icons"/>
   </div>
   </li>
    </ul>

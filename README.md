@@ -62,6 +62,7 @@ N/A
 ## Usage
 
 This application functions as a panel of judges. A user is able to post an item, story, service, etc to be rated by other users on the website.
+Stream chat api is also being implemented for engagement between users.
 
 
 
@@ -85,7 +86,10 @@ Project is not yet completed
 Responsive dropdown menu tutorial:
 [Click here for video](https://www.youtube.com/watch?v=ES8vJcUqE7s&list=LL&index=2&t=577s)
 
+Chat Messenger tutorial:
+[Click here for video](https://www.youtube.com/watch?v=MJzbJQLGehs&t=1276s)
 
+https://www.youtube.com/watch?v=MJzbJQLGehs&t=1276s
 <hr></hr>
 
 ## Contact

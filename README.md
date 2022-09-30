@@ -89,7 +89,7 @@ Responsive dropdown menu tutorial:
 Chat Messenger tutorial:
 [Click here for video](https://www.youtube.com/watch?v=MJzbJQLGehs&t=1276s)
 
-https://www.youtube.com/watch?v=MJzbJQLGehs&t=1276s
+
 <hr></hr>
 
 ## Contact

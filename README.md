@@ -76,7 +76,7 @@ Login and registration with validations is complete.
 
 ## Room for Improvement
 
-Project is not yet completed
+Project is not yet completed, CSS could use some fine tuning
 
 
 <hr></hr>

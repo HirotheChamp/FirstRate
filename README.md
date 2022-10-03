@@ -61,7 +61,7 @@ N/A
 
 ## Usage
 
-This application functions as a panel of judges. A user is able to post an item, story, service, etc to be rated by other users on the website.
+This application functions as a way to judge and rate products as a consumer. A user is able to post an item, story, service, etc to be rated by other users on the website.
 Stream chat api is also being implemented for engagement between users.
 
 

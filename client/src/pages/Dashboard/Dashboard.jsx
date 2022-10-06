@@ -71,31 +71,29 @@ if (data.status === 'ok') {
 
   return (
     
-      <><div className='navbar'>
+      <>
+      <div className='dashboard-wrapper'>
       <Navbar />
-    </div>
-    {/* <h1>Your quote: {quote || "no quote found"}</h1>
-  
-        <form onSubmit={updateQuote}>
+      <Sidebar />
+        </div>
+        </>
+
+
+    /* <h1>Your quote: {quote || "no quote found"}</h1>
+  <form onSubmit={updateQuote}>
           <input
             type="text"
             placeholder="Quote"
             value={tempQuote}
             onChange={(e) => setTempQuote(e.target.value)} />
           <input type="submit" value="Update quote" />
-        </form> */}
-        <div className='dashboard'>
-        <div className='sidebar'>
-          <Sidebar />
-        </div>
-
-
-        {/* <div className='newsfeed'>
+        </form> */
+       /* <div className='newsfeed'>
           <Newsfeed />
-        </div> */}
+        </div> */
 
 
-      </div></>
+     
   )
 }
 

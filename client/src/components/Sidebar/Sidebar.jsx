@@ -3,6 +3,7 @@ import './Sidebar.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown, faStar, faBook, faGear, faCopyright, faThLarge, faRightFromBracket } from '@fortawesome/free-solid-svg-icons'
 import profile from '../../images/profile.jpg';
+import ChannelSearch from '../ChannelSearch/ChannelSearch';
 
 const Sidebar = () => {
   return (
@@ -12,6 +13,11 @@ const Sidebar = () => {
   <FontAwesomeIcon icon={faCopyright} className="copyright-icon"/>
     <span className="logo_name">Hiro's Landing</span>
   </div>
+  
+  <div className="search-bar">
+<ChannelSearch/>
+  </div>
+
   <ul className="sidebar-links">
     <li>
       <a href='/dashboard'>

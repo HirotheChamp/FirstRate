@@ -23,7 +23,7 @@
 
 ## Background
 
-I wanted to start a project that stemmed from rating and commenting on anything possible. This may include: movies, food, services, etc. These comments and ratings would be tallied up and rendered as a score from 1-100.
+I wanted to start a project that stemmed from rating and commenting on anything possible. This may include: movies, food, services, etc. These comments and ratings would be tallied up and rendered as a score from 1-10.
 
 
 <hr></hr>

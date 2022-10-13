@@ -43,7 +43,7 @@ I wanted to start a project that stemmed from rating and commenting on anything 
 * MongoDB -- use to store data in the form of bugs and users created through the application
 * Express -- enables connection to the frontend with minimal approach
 * HTML, CSS, JSON -- used to create front end form creation script
-
+* Stream.io -- currently implementing Stream API to add chat channels to the landing page
 
 
 

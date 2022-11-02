@@ -70,7 +70,7 @@ Stream chat api is also being implemented for engagement between users.
 
 ## Project Status
 
-Login and registration with validations is complete.
+Login and registration with validations is complete. Currently starting Stream API implementation.
 
 <hr></hr>
 

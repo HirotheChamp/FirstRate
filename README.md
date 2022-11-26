@@ -70,7 +70,7 @@ This application functions as a way to judge and rate products as a consumer. A 
 
 ## Project Status
 
-Login and registration with validations is complete. Currently starting Stream API implementation.
+Login and registration with validations is complete. 
 
 <hr></hr>
 

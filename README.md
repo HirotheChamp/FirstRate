@@ -2,6 +2,7 @@
 
 
 
+<h3 align="center">Website for rating items which are submitted by users</h3>
 
 <hr></hr>
 

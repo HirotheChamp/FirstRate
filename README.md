@@ -32,7 +32,8 @@ I wanted to start a project that stemmed from rating and commenting on anything 
 ## Features
 
 * Login and Registration
-* Creating listing
+* Sidebar
+*Navigation Bar
 
 
 
@@ -89,7 +90,6 @@ Responsive dropdown menu tutorial:
 
 Chat Messenger tutorial:
 [Click here for video](https://www.youtube.com/watch?v=MJzbJQLGehs&t=1276s)
-
 
 <hr></hr>
 
